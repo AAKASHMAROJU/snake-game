@@ -8,12 +8,14 @@ body{
     height: 90vh;
     justify-content: center;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 .displayContainer h1{
     color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 h2{
     color: cornflowerblue;
@@ -26,6 +28,8 @@ h2{
     width: 20px;
     background-color: lightcoral;
     position: absolute;
+    border: 2px solid grey;
+    border-radius: 25%;
 }
 
 
@@ -44,3 +48,8 @@ h2{
     padding: 0;
     position: absolute;
 }
+
+
+
+
+
