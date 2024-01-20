@@ -37,8 +37,18 @@ const isCollide = () => {
     Number(snake.style.left.slice(0, -2)) > 480
   ) {
     return true;
+  } else {
+    let n = snakeObjects.length;
+    for (let i = 1; i < n; i++) {
+      if (
+        snake.style.top == snakeObjects[i].style.top &&
+        snake.style.left == snakeObjects[i].style.left
+      ) {
+        return true;
+      }
+    }
+    return false;
   }
-  return false;
 };
 
 const placeApple = () => {
@@ -61,7 +71,6 @@ const isEat = () => {
   ) {
     score++;
     displayScore();
-    // console.log("Eated ");
     placeApple();
     increaseSnake();
     return true;
