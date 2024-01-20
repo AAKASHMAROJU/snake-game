@@ -13,6 +13,8 @@ for (let i = 0; i < 480; i += 20) {
 apple.style.top = '200px';
 apple.style.left = '200px';
 
+
+// snake.style.position='relative';
 snake.style.top = "0px"
 snake.style.left = "0px"
 

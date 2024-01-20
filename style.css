@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{
     display: flex;
     align-items: center;
@@ -21,12 +25,13 @@ h2{
     height: 20px;
     width: 20px;
     background-color: lightcoral;
-    position: relative;
+    position: absolute;
 }
 
 
 
 .container{
+    position: relative;
     height: 500px;
     width: 500px;
     background-color: lightgreen;
@@ -36,5 +41,6 @@ h2{
 #apple-img{
     height: 20px;
     width: 20px;
-    position: relative;
+    padding: 0;
+    position: absolute;
 }
