@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.displayContainer h1{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.snake{
+    height: 20px;
+    width: 20px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgreen;
+    border: 25px ridge burlywood;
+}
+
+#apple-img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
