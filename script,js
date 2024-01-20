@@ -1,9 +1,20 @@
+const snake = document.querySelector('.snake');
+const apple = document.querySelector('#apple-img');
+const gameContainer = document.querySelector('.container');
+const display = document.querySelector('.displayContainer');
+const snakeObjects = [snake];
+const possiblitiePos = [];
+var timer;
 
+for (let i = 0; i < 480; i += 20) {
+    possiblitiePos.push(i);
+}
+
+apple.style.top = '200px';
 apple.style.left = '200px';
 
 snake.style.top = "0px"
 snake.style.left = "0px"
-
 
 const increaseSnake = () => {
     let n = snakeObjects.length;
